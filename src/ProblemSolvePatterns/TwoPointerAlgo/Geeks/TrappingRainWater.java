@@ -1,4 +1,4 @@
-package ProblemSolvePatterns.SlidingWindow.TwoPointerAlgo.Geeks;
+package ProblemSolvePatterns.TwoPointerAlgo.Geeks;
 
 /**
  * Trapping Rainwater Problem states that given an array of n non-negative

@@ -1,4 +1,4 @@
-package ProblemSolvePatterns.SlidingWindow.TwoPointerAlgo.Geeks;
+package ProblemSolvePatterns.TwoPointerAlgo.Geeks;
 
 import java.util.ArrayList;
 import java.util.List;

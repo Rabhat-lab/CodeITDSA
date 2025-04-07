@@ -1,4 +1,4 @@
-package ProblemSolvePatterns.SlidingWindow.TwoPointerAlgo.NeetCode;
+package ProblemSolvePatterns.TwoPointerAlgo.NeetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

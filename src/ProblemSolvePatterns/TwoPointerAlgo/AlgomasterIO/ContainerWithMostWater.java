@@ -1,4 +1,4 @@
-package ProblemSolvePatterns.SlidingWindow.TwoPointerAlgo.AlgomasterIO;
+package ProblemSolvePatterns.TwoPointerAlgo.AlgomasterIO;
 
 /**
  * You are given an integer array heights where heights[i] represents the height of the ith bar.

@@ -1,4 +1,4 @@
-package ProblemSolvePatterns.SlidingWindow.TwoPointerAlgo.NeetCode;
+package ProblemSolvePatterns.TwoPointerAlgo.NeetCode;
 
 import static java.util.Collections.min;
 

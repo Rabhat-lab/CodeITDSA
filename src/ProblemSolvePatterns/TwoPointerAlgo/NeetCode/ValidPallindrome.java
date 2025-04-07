@@ -1,4 +1,4 @@
-package ProblemSolvePatterns.SlidingWindow.TwoPointerAlgo.NeetCode;
+package ProblemSolvePatterns.TwoPointerAlgo.NeetCode;
 
 /**
  * Given a string s, return true if it is a palindrome, otherwise return false.

@@ -1,4 +1,4 @@
-package ProblemSolvePatterns.SlidingWindow.TwoPointerAlgo.AlgomasterIO;
+package ProblemSolvePatterns.TwoPointerAlgo.AlgomasterIO;
 
 import java.util.ArrayList;
 import java.util.Arrays;
