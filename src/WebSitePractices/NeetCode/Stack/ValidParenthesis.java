@@ -1,4 +1,4 @@
-package ArraysPrograms.Arrays.NeetCode.Stack;
+package WebSitePractices.NeetCode.Stack;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package ArraysPrograms.Arrays.NeetCode.StaticArray;
+package WebSitePractices.NeetCode.StaticArray;
 
 /**
  * LeetCode - 26 : Remove Duplicates from Sorted Array

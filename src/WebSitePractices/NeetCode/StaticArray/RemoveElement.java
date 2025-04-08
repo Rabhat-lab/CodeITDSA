@@ -1,6 +1,4 @@
-package ArraysPrograms.Arrays.NeetCode.StaticArray;
-
-import java.util.Arrays;
+package WebSitePractices.NeetCode.StaticArray;
 
 /**
  * Leetcode - 27 - Remove element equal to value

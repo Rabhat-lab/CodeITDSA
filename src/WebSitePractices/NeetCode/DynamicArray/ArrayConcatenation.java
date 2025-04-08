@@ -1,4 +1,4 @@
-package ArraysPrograms.Arrays.NeetCode.DynamicArray;
+package WebSitePractices.NeetCode.DynamicArray;
 
 /**
  * Leetcode -1929 - Array concatenation
