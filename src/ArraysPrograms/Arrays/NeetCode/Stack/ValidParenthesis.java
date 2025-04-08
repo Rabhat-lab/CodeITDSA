@@ -41,6 +41,7 @@ public class ValidParenthesis {
             if(isCharOpeningBracket){
                 stack.push(c[i]);
             } else {
+                //check if the stack is empty or the match is found or not
                 if(stack.isEmpty() || !bracketMatch(stack.pop(),c[i])){
                     return false;
                 }
@@ -52,6 +53,7 @@ public class ValidParenthesis {
     }
 
     private static boolean bracketMatch(char pop, char charAt) {
+        //check if there is open and matching closing bracket
         return ( pop=='(' && charAt==')' ||
                 pop=='[' && charAt==']' ||
                 pop=='{' && charAt=='}');
