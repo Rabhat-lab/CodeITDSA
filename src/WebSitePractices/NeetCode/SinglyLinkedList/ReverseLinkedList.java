@@ -40,6 +40,29 @@ public class ReverseLinkedList {
     }
 
     private static ListNode reverseList(ListNode head){
+        /* initially the current is pointting to head which is "0"
+        iteration 1 : next = current.next -> 1,next
+                      current.next = prev -> null
+                      prev = current -> 0,next
+                      current = next -> 1,next
+        iteration 2 : next = 2,next
+                      current.next = 0,next
+                      prev = 1,next
+                      current = 2,next
+        iteration 3 : next = 3,next
+                      current.next = 1,next
+                      prev = 2,next
+                      current = 3,next
+       prev = {ListNode@723}
+          val = 3
+          next = {ListNode@722}
+             val = 2
+             next = {ListNode@721}
+                val = 1
+                next = {ListNode@720}
+                   val = 0
+                   next = null
+         */
         ListNode current = head;
         ListNode prev = null;
         ListNode next ;
