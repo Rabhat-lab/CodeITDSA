@@ -77,17 +77,17 @@ class BrowserHistoryOps {
 
     }
     public String back(int steps) {
-        while(browserHead !=null && steps-- >0){
+        while(browserHead.prev !=null && steps-- >0){
             browserHead = browserHead.prev;
         }
-        System.out.println("Browser is at :"+browserHead.val+" after moving "+steps+" back");
+        System.out.println("Reached url: "+browserHead.val+" after "+steps+" backward.");
         return browserHead.val;
     }
     public String forward(int steps) {
-        while(browserHead!=null && steps-- >0){
+        while(browserHead.next!=null && steps-- >0){
             browserHead = browserHead.next;
         }
-        System.out.println("Browser is at :"+browserHead.val+" after moving "+steps+" forward");
+        System.out.println("Reached url: "+browserHead.val+" after "+steps+" forward.");
         return browserHead.val;
     }
 }
