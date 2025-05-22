@@ -1,6 +1,7 @@
 package ProblemSolvePatterns.SlidingWindow.Fixed;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -47,6 +48,14 @@ public class AllAnagramsInString {
         }
 
         //sliding window
+        for(int i=p.length()-1;i<s.length();i++){
+            sCount[s.charAt(i)-'a']++;
+        if(Arrays.equals(sCount,pCount)) {
+            a.add(i - p.length() - 1);
+        }
+        sCount[s.charAt(i-p.length())-'a']--;
+        }
+
 return a;
     }
 }
